@@ -1,0 +1,45 @@
+body,html{
+    margin:none;
+    padding:none;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    /* background-color: red; */
+    position:relative;
+    scrollbar-color: none;
+    scrollbar-track-color: none;
+
+}
+canvas{
+   
+    background-color: white;
+    position:absolute;
+
+    z-index: 1;
+    opacity:1;
+
+}
+#warpbutton{
+    position:absolute;
+    z-index: 2;
+}
+
+img{
+    display:none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    /* translate(-50%,-50%); */
+}
+
+#warpbutton{
+    display:inline;
+    padding:20px;
+    margin-left:20px;
+    margin-top: 20px;
+    color:white;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 2rem;
+    
+}
